@@ -1,6 +1,7 @@
 class Employee{
     int salary;
     String name;
+    
 
     public int getSalary(){
         return salary;
