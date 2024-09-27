@@ -20,5 +20,6 @@ public class CWH_05_TakingInput {
         // String str =sc.next();
         String str =sc.nextLine();
         System.out.println(str);
+        sc.close();
     }
 }

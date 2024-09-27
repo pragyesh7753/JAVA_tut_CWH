@@ -21,8 +21,8 @@ public class CWH_09_Ch2_Operator_Precedence {
         // System.out.println(b);
 
         // Quick Quiz
-        int x = 6;
-        int y = 1;
+        // int x = 6;
+        // int y = 1;
         // int k = x * y/2;
 
         int b = 0;
