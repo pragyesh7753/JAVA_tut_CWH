@@ -1,3 +1,7 @@
+/**
+ * The Java program defines a class with multiple thread constructors and demonstrates creating and
+ * starting threads using both Thread and Runnable interfaces.
+ */
 
 class MyThr extends Thread {
 
@@ -19,7 +23,6 @@ class MyThr extends Thread {
 class MyThr1 implements Runnable {
 
     public MyThr1(Runnable r, String name) {
-        super();
     }
     @Override
     public void run(){
