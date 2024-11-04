@@ -5,10 +5,15 @@ class maxRetriesException extends Exception {
     public String toString() {
         return "Maximum Retries Limit Reached";
     }
+
+    @Override
+    public String getMessage() {
+        return "Maximum Retries Limit Reached";
+    }
 }
 
 public class CWH_86_PS14 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws maxRetriesException {
         // Problem 1
         // Syntax Error => int a = 7;
         // Logical Error => int age = 78;
@@ -45,9 +50,11 @@ public class CWH_86_PS14 {
             }
         }
         // if (i >= 5) {
-        //     System.out.println("Error!");
+        // System.out.println("Error!");
         // }
-        if(i>=5){
+
+        // Problem 4
+        if (i >= 5) {
             throw new maxRetriesException();
         }
     }
