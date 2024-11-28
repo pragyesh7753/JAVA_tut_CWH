@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-import javax.sound.sampled.SourceDataLine;
 
 public class CWH_19_PS4 {
     public static void main(String[] args) {
@@ -78,16 +77,17 @@ public class CWH_19_PS4 {
         // System.out.println("Sorry this is not a leap year.");
         // }
 
-        // Question6
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a website : ");
-        String website = sc.next();
-        if (website.endsWith(".org")) {
-            System.out.println("This is an Organisational website.");
-        } else if (website.endsWith(".com")) {
-            System.out.println("This is an Commercial website.");
-        } else if (website.endsWith(".in")) {
-            System.out.println("This is an Indian website.");
+        try (// Question6
+        Scanner sc = new Scanner(System.in)) {
+            System.out.print("Enter a website : ");
+            String website = sc.next();
+            if (website.endsWith(".org")) {
+                System.out.println("This is an Organisational website.");
+            } else if (website.endsWith(".com")) {
+                System.out.println("This is an Commercial website.");
+            } else if (website.endsWith(".in")) {
+                System.out.println("This is an Indian website.");
+            }
         }
 
     }

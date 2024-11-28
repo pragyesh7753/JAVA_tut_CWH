@@ -1,28 +1,29 @@
 class MyThread extends Thread {
-    public void run() {
-        try {
+    // public void run() {
+    //     try {
 
-            Thread.sleep(200);
-        } catch (Exception e) {
-            System.out.println(e);
-        }
-        int i = 0;
-        while (true) {
-            System.out.println("good morning");
-            i++;
-        }
-    }
+    //         Thread.sleep(200);
+    //     } catch (Exception e) {
+    //         System.out.println(e);
+    //     }
+    //     // int i = 0;
+    //     while (true) {
+    //         System.out.println("good morning");
+    //         i++;
+    //     }
+    // }
 }
 
 class MyThread2 extends Thread {
-    public void run() {
-        int i = 0;
-        while (true) {
+    // @Override
+    // public void run() {
+    //     int i = 0;
+    //     while (true) {
 
-            System.out.println("Welcome");
-            i++;
-        }
-    }
+    //         System.out.println("Welcome");
+    //         i++;
+    //     }
+    // }
 }
 
 class Thread_Practice {
@@ -39,5 +40,7 @@ class Thread_Practice {
         t2.start();
         System.out.println("State  of t2 thread  is : " + t2.getState());
         System.out.println("check the current State  of thread: " + Thread.currentThread().getState());
+        Thread_Practice t=new Thread_Practice();
+        System.out.println("check the current State  of thread: " + t.getClass());
     }
 }

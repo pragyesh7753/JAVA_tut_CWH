@@ -1,4 +1,4 @@
-import java.util.Scanner;
+// import java.util.Scanner;
 
 public class CWH_PS2 {
     public static void main(String[] args) {
@@ -28,7 +28,7 @@ public class CWH_PS2 {
         // System.out.println((float) (v * v - u * u) / (2 * a * s));
 
         // Question5
-        int x = 7;
+        // int x = 7;
         int a = 7 * 49 / 7 + 35 / 7;
         System.out.println("a = " + a);
     }

@@ -17,34 +17,34 @@ class Employee {
     }
 }
 
-class CellPhone {
+// class CellPhone {
 
-    public void ring() {
-        System.out.println("Ringing...");
-    }
+//     public void ring() {
+//         System.out.println("Ringing...");
+//     }
 
-    public void vibrate() {
-        System.out.println("Vibrating...");
-    }
+//     public void vibrate() {
+//         System.out.println("Vibrating...");
+//     }
 
-    public void callFriend() {
-        System.out.println("Calling Mukul...");
-    }
+//     public void callFriend() {
+//         System.out.println("Calling Mukul...");
+//     }
 
-}
+// }
 
-class Square {
+// class Square {
 
-    int side;
+//     int side;
 
-    public int area() {
-        return side * side;
-    }
+//     public int area() {
+//         return side * side;
+//     }
 
-    public int perimeter() {
-        return 4 * side;
-    }
-}
+//     public int perimeter() {
+//         return 4 * side;
+//     }
+// }
 
 class Tommy {
 

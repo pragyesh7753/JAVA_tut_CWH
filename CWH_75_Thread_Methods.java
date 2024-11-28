@@ -5,21 +5,21 @@
 
 class MyNewThr1 extends Thread {
 
-    @Override
-    public void run() {
-        int i=0;
-        while (true) {
-            // System.out.println("I am a thread");
-            System.out.println("Thank You");
-            try {
-                Thread.sleep(455);  // Causes the currently executing thread to sleep (temporarily cease execution) for the specified number of milliseconds.
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-            i++;
-        }
+    // @Override
+    // public void run() {
+    //     int i=0;
+    //     while (true) {
+    //         // System.out.println("I am a thread");
+    //         System.out.println("Thank You");
+    //         try {
+    //             Thread.sleep(455);  // Causes the currently executing thread to sleep (temporarily cease execution) for the specified number of milliseconds.
+    //         } catch (InterruptedException e) {
+    //             e.printStackTrace();
+    //         }
+    //         i++;
+    //     }
 
-    }
+    // }
 
 }
 

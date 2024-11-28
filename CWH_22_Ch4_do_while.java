@@ -18,13 +18,14 @@ public class CWH_22_Ch4_do_while {
             b++;
         } while (b < 5);
 
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a number :");
-        int n = sc.nextInt();
-        int c = 1;
-        do {
-            System.out.println(c);
-            c++;
-        } while (c <= n);
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.print("Enter a number :");
+            int n = sc.nextInt();
+            int c = 1;
+            do {
+                System.out.println(c);
+                c++;
+            } while (c <= n);
+        }
     }
 }

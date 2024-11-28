@@ -1,4 +1,4 @@
-import java.util.Scanner;
+// import java.util.Scanner;
 
 public class CWH_Ch1_PS {
     public static void main(String[] args) {
@@ -16,11 +16,10 @@ public class CWH_Ch1_PS {
         // float cgpa = (subject1 + subject2 + subject3) / 30;
         // System.out.println(cgpa);
 
-        // // Question3
-        // System.out.println("What is your name ?");
-        Scanner sc = new Scanner(System.in);
-        // String name = sc.next();
-        // System.out.println("Hello " + name + " have a good day");
+        // try (// // Question3
+        //         // System.out.println("What is your name ?");
+        // Scanner sc = new Scanner(System.in)) {
+        // }
 
         // Question4
         // System.out.println("Give distance in Kilometers : ");

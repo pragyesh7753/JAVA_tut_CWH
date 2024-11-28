@@ -34,5 +34,6 @@ public class CWH_47_this_super {
         EkClass e = new EkClass(65);
         DoClass d=new DoClass(5);
         System.out.println(e.getA());
+        System.out.println(d.getA());
     }
 }

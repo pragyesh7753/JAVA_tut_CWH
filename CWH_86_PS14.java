@@ -35,27 +35,28 @@ public class CWH_86_PS14 {
         marks[0] = 7;
         marks[1] = 56;
         marks[2] = 6;
-        Scanner sc = new Scanner(System.in);
-        int index;
-        int i = 0;
-        while (flag && i < 5) {
-            try {
-                System.out.print("Enter the value of index: ");
-                index = sc.nextInt();
-                System.out.print("The value of marks[index] is: " + marks[index]);
-                break;
-            } catch (Exception e) {
-                System.out.println("Invalid Index");
-                i++;
+        try (Scanner sc = new Scanner(System.in)) {
+            int index;
+            int i = 0;
+            while (flag && i < 5) {
+                try {
+                    System.out.print("Enter the value of index: ");
+                    index = sc.nextInt();
+                    System.out.print("The value of marks[index] is: " + marks[index]);
+                    break;
+                } catch (Exception e) {
+                    System.out.println("Invalid Index");
+                    i++;
+                }
             }
-        }
-        // if (i >= 5) {
-        // System.out.println("Error!");
-        // }
+            // if (i >= 5) {
+            // System.out.println("Error!");
+            // }
 
-        // Problem 4
-        if (i >= 5) {
-            throw new maxRetriesException();
+            // Problem 4
+            if (i >= 5) {
+                throw new maxRetriesException();
+            }
         }
     }
 }

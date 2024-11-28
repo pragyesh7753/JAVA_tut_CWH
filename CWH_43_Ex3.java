@@ -23,9 +23,10 @@ class Game {
     }
 
     public void takeUserInput() {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Guess a number between 0 and 100: ");
-        userInput = sc.nextInt();
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.print("Guess a number between 0 and 100: ");
+            userInput = sc.nextInt();
+        }
     }
     
     public void setUserInput(int userInput) {

@@ -7,7 +7,7 @@ class MyThr1 extends Thread {
 
     @Override
     public void run() {
-        int i = 34;
+        // int i = 34;
         while (true) {
             // System.out.println("I am a thread");
             System.out.println("Thank You " + this.getName());

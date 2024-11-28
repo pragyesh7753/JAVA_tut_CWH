@@ -3,22 +3,22 @@
  * braking, speeding up, and blowing different horns.
  */
 interface Bicycle{
-    int a = 45;
+    // int a = 45;
     void applyBrake(int decrement);
     void speedUp(int increment);
 }
 
 interface HornBicycle{
-    int x = 45;
+    // int x = 45;
     void blowHornK3g();
     void blowHornmhn();
 }
 
 class AvonCycle implements Bicycle, HornBicycle{
     //public int x = 5;
-    void blowHorn(){
-        System.out.println("Pee Pee Poo Poo");
-    }
+    // void blowHorn(){
+    //     System.out.println("Pee Pee Poo Poo");
+    // }
     @Override
     public void applyBrake(int decrement){
         System.out.println("Applying Brake");
@@ -41,8 +41,8 @@ public class CWH_54_Interfaces {
         AvonCycle cycleHarry = new AvonCycle();
         cycleHarry.applyBrake(1);
         // You can create properties in Interfaces
-        System.out.println(cycleHarry.a);
-        System.out.println(cycleHarry.x);
+        // System.out.println(cycleHarry.a);
+        // System.out.println(cycleHarry.x);
 
         // You cannot modify the properties in Interfaces as they are final
         // cycleHarry.a = 454;

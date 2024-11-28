@@ -84,14 +84,15 @@ public class CWH_25_Practice_Set_5 {
         // Practice Problem 10
         // 1. At least once
 
-        // Practice Problem 11
-        Scanner scan = new Scanner(System.in);
-        System.out.print("Enter the value of n : ");
-        int n = scan.nextInt();
-        int sum = 0;
-        for (int i = 0; i < n; i++) {
-            sum = sum + (2 * i);
+        try (// Practice Problem 11
+        Scanner scan = new Scanner(System.in)) {
+            System.out.print("Enter the value of n : ");
+            int n = scan.nextInt();
+            int sum = 0;
+            for (int i = 0; i < n; i++) {
+                sum = sum + (2 * i);
+            }
+            System.out.println("Sum of first n even numbers is : " + sum);
         }
-        System.out.println("Sum of first n even numbers is : " + sum);
     }
 }
