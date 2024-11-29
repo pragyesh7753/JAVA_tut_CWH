@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CWH_93_ArrayDeque",
+            "request": "launch",
+            "mainClass": "CWH_93_ArrayDeque",
+            "projectName": "JAVA_tut_CWH_e525d604"
+        },
+        {
+            "type": "java",
             "name": "CWH_91_ArrayList",
             "request": "launch",
             "mainClass": "CWH_91_ArrayList",
