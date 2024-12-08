@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CWH_96_Date",
+            "request": "launch",
+            "mainClass": "CWH_96_Date",
+            "projectName": "JAVA_tut_CWH_e525d604"
+        },
+        {
+            "type": "java",
+            "name": "CWH_95_HashSet",
+            "request": "launch",
+            "mainClass": "CWH_95_HashSet",
+            "projectName": "JAVA_tut_CWH_e525d604"
+        },
+        {
+            "type": "java",
             "name": "CWH_93_ArrayDeque",
             "request": "launch",
             "mainClass": "CWH_93_ArrayDeque",
