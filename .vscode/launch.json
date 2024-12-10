@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CWH_99_GregorianCalendar_Class",
+            "request": "launch",
+            "mainClass": "CWH_99_GregorianCalendar_Class",
+            "projectName": "JAVA_tut_CWH_e525d604"
+        },
+        {
+            "type": "java",
             "name": "CWH_98_Calendar_Class",
             "request": "launch",
             "mainClass": "CWH_98_Calendar_Class",
