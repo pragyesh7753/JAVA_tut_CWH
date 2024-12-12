@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CWH_101_DateTimeFormatter",
+            "request": "launch",
+            "mainClass": "CWH_101_DateTimeFormatter",
+            "projectName": "JAVA_tut_CWH_e525d604"
+        },
+        {
+            "type": "java",
+            "name": "CWH_100_Java_time",
+            "request": "launch",
+            "mainClass": "CWH_100_Java_time",
+            "projectName": "JAVA_tut_CWH_e525d604"
+        },
+        {
+            "type": "java",
+            "name": "CWH_51_Exercise4",
+            "request": "launch",
+            "mainClass": "CWH_51_Exercise4",
+            "projectName": "JAVA_tut_CWH_e525d604"
+        },
+        {
+            "type": "java",
             "name": "CWH_99_GregorianCalendar_Class",
             "request": "launch",
             "mainClass": "CWH_99_GregorianCalendar_Class",
