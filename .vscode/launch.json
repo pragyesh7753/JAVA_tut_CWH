@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FileWriterExample",
+            "request": "launch",
+            "mainClass": "FileWriterExample",
+            "projectName": "JAVA_tut_CWH_e525d604"
+        },
+        {
+            "type": "java",
             "name": "CWH_101_DateTimeFormatter",
             "request": "launch",
             "mainClass": "CWH_101_DateTimeFormatter",
